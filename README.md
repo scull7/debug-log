@@ -17,10 +17,12 @@ logger.error("some error message here...");
 ```
 
 * Show all messages including debugging (useful for development)
+  
   ```bash
   NODE_DEBUG=myLog:* node my_process.js
   ```
 * Show only a specific set of messages
+  
   ```bash
   NODE_DEBUG=myLog:error node my_process.js
   ```
